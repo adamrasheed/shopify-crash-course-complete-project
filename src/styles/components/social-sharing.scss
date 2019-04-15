@@ -1,0 +1,22 @@
+.social-sharing {
+  margin: 2rem 0;
+
+  a {
+    color: $color-body-text-light;
+    text-decoration: none;
+    margin-right: 1rem;
+    transition: all 0.15s ease-in-out;
+    opacity: 1;
+    cursor: pointer;
+
+    span {
+      font-size: $font-size-small;
+    }
+
+    &:hover,
+    &:focus {
+      outline: 0;
+      color: $color-body-text;
+    }
+  }
+}

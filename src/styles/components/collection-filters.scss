@@ -1,0 +1,30 @@
+@import "../variables.scss";
+
+.collection-filters {
+  width: 12rem;
+  padding: 0 1rem;
+  list-style: none;
+  margin: 0 2rem 0 0;
+}
+
+.collection-filter {
+  display: block;
+  margin: 0.5rem 0;
+
+  a {
+    text-decoration: none;
+    color: $color-body-text;
+    display: block;
+    padding: 0.25rem 0.5rem;
+
+    &:hover,
+    &:focus {
+      outline: 0;
+      background: $color-background;
+    }
+  }
+
+  &--active {
+    background: $color-background;
+  }
+}
