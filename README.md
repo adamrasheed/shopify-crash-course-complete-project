@@ -1,16 +1,19 @@
 # Shopify Slate Crash Course - Completed Project
 
-## System requirements
+## About This Project
 
-You'll want to ensure you have the following already installed on your local machine before getting started with Starter theme:
+This project is a completed version of the store we build in the Shopify Crash course, which you can learn more about [here](https://ecommmasters.com).
 
-- **Node:** The current LTS (long-term support) release. We like to use a Node Version Manager like [NVM](https://github.com/creationix/nvm).
+### Install
 
-- **NPM 5+ or Yarn:** Both of these package managers have [ups and downs](https://blog.risingstack.com/yarn-vs-npm-node-js-package-managers/), choose whichever you prefer. Follow the installation instructions [for Yarn](https://yarnpkg.com/en/docs/install) or [NPM](https://www.npmjs.com/get-npm) to make sure you're using the latest version.
+Git clone this directory, cd to it with your terminal, then run `yarn install`.
 
-## Getting started
+## Starting Files
 
-Go to your terminal, cd into this directory, then run `yarn install`.
+The starting files are simply the Shopify slate starter theme files with some styles added in.
+
+- Shopify Slate:[https://shopify.github.io/slate/docs/create-a-new-slate-project](https://shopify.github.io/slate/docs/create-a-new-slate-project)
+- Custom Styles: [Custom Styles](https://github.com/adamrasheed/ecomm-masters-free-course-styles). You can download these and replace/overwrite them into the existing `styles` folder.
 
 For more information on connecting your new project with a Shopify store, see the [Slate docs](https://github.com/Shopify/slate/wiki/3.-Connect-to-your-store).
 
